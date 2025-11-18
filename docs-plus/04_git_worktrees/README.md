@@ -2,6 +2,19 @@
 
 SpecKit Plus now supports git worktrees, allowing you to work on multiple features simultaneously in separate directories while sharing the same git history, specs, and prompt history.
 
+## 📚 Tutorials
+
+**Start Here:**
+1. **[Multi-Session Workflow](01_multi_session_workflow.md)** - Learn to work on 3 features in parallel across multiple AI sessions (45 min)
+2. **[Advanced Patterns](02_advanced_patterns.md)** - Team coordination, CI/CD integration, and production patterns (60 min)
+
+**Choose your learning path:**
+- 🎯 **New to worktrees?** → Start with [Multi-Session Workflow](01_multi_session_workflow.md)
+- 🚀 **Experienced with worktrees?** → Jump to [Advanced Patterns](02_advanced_patterns.md)
+- 📖 **Need reference?** → Continue reading below
+
+---
+
 ## What are Git Worktrees?
 
 Git worktrees let you check out multiple branches at once, each in its own directory. This is perfect for feature development where you need to:

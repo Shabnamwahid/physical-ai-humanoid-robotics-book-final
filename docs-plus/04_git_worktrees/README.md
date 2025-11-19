@@ -2,6 +2,75 @@
 
 SpecKit Plus now supports git worktrees, allowing you to work on multiple features simultaneously in separate directories while sharing the same git history, specs, and prompt history.
 
+## 🎯 When to Use Worktrees
+
+**Use worktrees if:**
+- ✅ Running 3+ AI agents simultaneously on one feature/task
+- ✅ Long-running dev servers that can't easily restart
+- ✅ Need hotfix while feature branch is uncommitted
+- ✅ Testing multiple approaches in parallel
+
+**Don't use worktrees if:**
+- ❌ Working on one feature at a time
+- ❌ Simple linear development workflow
+- ❌ Just learning SpecKit Plus
+
+Most users don't need worktrees. They're an advanced feature for parallel multi-agent workflows.
+
+## 🧠 The "Mission Control" Pattern
+
+**Key Concept:** Your main repository acts as "Mission Control" - it defines the session context for all worktrees.
+
+```
+Main Repo = Mission Control (Session Manager)
+├── Current branch = Session context (e.g., payment-feature)
+├── specs/ = Shared source of truth
+└── Stays on session branch (don't switch during work)
+
+Worktrees = Field Agents (Parallel Executors)
+├── Agent 1: Stripe integration
+├── Agent 2: PayPal integration   } All share session context
+└── Agent N: Refund logic
+```
+
+**Important:** All worktrees read specs from whatever branch the main repo is currently on. This is by design - it allows you to work on any branch (not just `main`) with parallel agents.
+
+### Session-Based Workflow
+
+```bash
+# Start a session (choose your context branch)
+git checkout -b payment-feature  # or any branch
+/sp.worktree create stripe
+/sp.worktree create paypal
+
+# All worktrees now share 'payment-feature' context
+# Work in parallel...
+
+# End session (cleanup)
+/sp.worktree remove ../worktrees/stripe
+/sp.worktree remove ../worktrees/paypal
+git checkout main  # Safe to switch now
+```
+
+### ⚠️ Important: Don't Switch Branches During Active Session
+
+```bash
+# ❌ DON'T DO THIS:
+/sp.worktree create task1
+/sp.worktree create task2
+git checkout other-branch  # Breaks worktrees! Context changed!
+
+# ✅ DO THIS INSTEAD:
+/sp.worktree create task1
+/sp.worktree create task2
+# ... work in worktrees ...
+/sp.worktree remove ../worktrees/task1
+/sp.worktree remove ../worktrees/task2
+git checkout other-branch  # Safe now
+```
+
+When you switch the main repo's branch, all worktrees instantly see different specs. This is powerful when intentional (switching sessions), but breaks things if accidental.
+
 ## 📚 Tutorials
 
 **Start Here:**
@@ -27,12 +96,12 @@ Git worktrees let you check out multiple branches at once, each in its own direc
 ## Directory Structure
 
 ```
-my-project/              ← Main repository (stays on main branch)
-├── specs/               ← Shared across all worktrees
+my-project/              ← Main repository (Mission Control)
+├── specs/               ← Shared across all worktrees (from current branch)
 ├── history/             ← Shared across all worktrees
 ├── templates/           ← Shared across all worktrees
 ├── scripts/             ← Shared across all worktrees
-└── src/                 ← Main branch source code
+└── src/                 ← Code on whatever branch main repo is on
 
 worktrees/               ← Sibling directory with feature worktrees
 ├── 001-user-auth/       ← Worktree for feature 001
@@ -46,7 +115,10 @@ worktrees/               ← Sibling directory with feature worktrees
     └── .git             ← Points to main repo
 ```
 
-**Important**: The `specs/` and `history/` directories are automatically accessed from the main repo root, even when working in a worktree. This means all features share the same specs and prompt history.
+**Critical Understanding**: The `specs/` and `history/` directories are automatically accessed from the main repo root, even when working in a worktree. All worktrees see specs from **whatever branch the main repo is currently on**. This allows you to:
+- Work on `main` branch with parallel agents
+- Work on `feature-x` branch with parallel agents
+- Switch sessions by changing main repo's branch (after cleanup)
 
 ## Quick Start
 

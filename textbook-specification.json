@@ -1,0 +1,337 @@
+{
+  "title": "Physical AI & Humanoid Robotics Textbook",
+  "version": "1.0",
+  "description": "A comprehensive textbook covering Physical AI and Humanoid Robotics with practical implementations",
+  "technicalRequirements": {
+    "platform": "Docusaurus",
+    "deployment": "GitHub Pages",
+    "chatbot": {
+      "architecture": "RAG Chatbot",
+      "vectorDatabase": "Qdrant",
+      "database": "Neon (PostgreSQL)",
+      "backend": "FastAPI",
+      "constraints": "Free-tier friendly"
+    }
+  },
+  "chapters": [
+    {
+      "chapterNumber": 1,
+      "title": "Introduction to Physical AI",
+      "subtopics": [
+        {
+          "section": "1.1",
+          "title": "Defining Physical AI",
+          "content": "Understanding the intersection of artificial intelligence and physical systems"
+        },
+        {
+          "section": "1.2",
+          "title": "Historical Context and Evolution",
+          "content": "From traditional robotics to embodied intelligence"
+        },
+        {
+          "section": "1.3",
+          "title": "Key Components of Physical AI Systems",
+          "content": "Sensors, actuators, computation, and learning mechanisms"
+        },
+        {
+          "section": "1.4",
+          "title": "Applications and Use Cases",
+          "content": "Industrial, healthcare, domestic, and service robotics"
+        },
+        {
+          "section": "1.5",
+          "title": "Challenges and Opportunities",
+          "content": "Technical, ethical, and societal considerations"
+        },
+        {
+          "section": "1.6",
+          "title": "Future Directions",
+          "content": "Emerging trends and research frontiers"
+        }
+      ]
+    },
+    {
+      "chapterNumber": 2,
+      "title": "Basics of Humanoid Robotics",
+      "subtopics": [
+        {
+          "section": "2.1",
+          "title": "Humanoid Robot Anatomy",
+          "content": "Degrees of freedom, joint configurations, and kinematic chains"
+        },
+        {
+          "section": "2.2",
+          "title": "Biomechanics and Biomimicry",
+          "content": "Human movement principles applied to robot design"
+        },
+        {
+          "section": "2.3",
+          "title": "Balance and Locomotion",
+          "content": "Walking, standing, and dynamic stability control"
+        },
+        {
+          "section": "2.4",
+          "title": "Actuator Technologies",
+          "content": "Servos, hydraulic, pneumatic, and electric systems"
+        },
+        {
+          "section": "2.5",
+          "title": "Safety Considerations",
+          "content": "Human-robot interaction safety protocols"
+        },
+        {
+          "section": "2.6",
+          "title": "Humanoid Platforms Overview",
+          "content": "Existing commercial and research platforms"
+        }
+      ]
+    },
+    {
+      "chapterNumber": 3,
+      "title": "ROS 2 Fundamentals",
+      "subtopics": [
+        {
+          "section": "3.1",
+          "title": "ROS 2 Architecture",
+          "content": "Nodes, topics, services, and actions"
+        },
+        {
+          "section": "3.2",
+          "title": "Installation and Setup",
+          "content": "Environment configuration and workspace creation"
+        },
+        {
+          "section": "3.3",
+          "title": "Message Passing and Communication",
+          "content": "Publish-subscribe patterns and data exchange"
+        },
+        {
+          "section": "3.4",
+          "title": "Parameter Management",
+          "content": "Configuration and runtime parameter handling"
+        },
+        {
+          "section": "3.5",
+          "title": "Lifecycle Management",
+          "content": "Node state machines and managed nodes"
+        },
+        {
+          "section": "3.6",
+          "title": "Testing and Debugging",
+          "content": "Tools and methodologies for ROS 2 development"
+        }
+      ]
+    },
+    {
+      "chapterNumber": 4,
+      "title": "Digital Twin Simulation and Sensors",
+      "subtopics": [
+        {
+          "section": "4.1",
+          "title": "Digital Twin Concepts",
+          "content": "Virtual representation of physical systems"
+        },
+        {
+          "section": "4.2",
+          "title": "Gazebo Simulation Environment",
+          "content": "Physics engine, models, and world creation"
+        },
+        {
+          "section": "4.3",
+          "title": "Unity Integration",
+          "content": "Advanced visualization and rendering capabilities"
+        },
+        {
+          "section": "4.4",
+          "title": "Sensor Modeling and Simulation",
+          "content": "Cameras, LiDAR, IMU, and other sensor types"
+        },
+        {
+          "section": "4.5",
+          "title": "Physics Accuracy and Validation",
+          "content": "Ensuring realistic simulation behavior"
+        },
+        {
+          "section": "4.6",
+          "title": "Simulation to Reality Transfer",
+          "content": "Bridging the sim-to-real gap"
+        }
+      ]
+    },
+    {
+      "chapterNumber": 5,
+      "title": "NVIDIA Isaac Sim and Navigation",
+      "subtopics": [
+        {
+          "section": "5.1",
+          "title": "Isaac Sim Overview",
+          "content": "NVIDIA's robotics simulation and development platform"
+        },
+        {
+          "section": "5.2",
+          "title": "Perception Pipeline Development",
+          "content": "Computer vision and sensor fusion for robotics"
+        },
+        {
+          "section": "5.3",
+          "title": "SLAM Algorithms",
+          "content": "Simultaneous localization and mapping techniques"
+        },
+        {
+          "section": "5.4",
+          "title": "Path Planning and Navigation",
+          "content": "Global and local path planning algorithms"
+        },
+        {
+          "section": "5.5",
+          "title": "GPU Acceleration",
+          "content": "Leveraging CUDA and TensorRT for performance"
+        },
+        {
+          "section": "5.6",
+          "title": "Deep Learning Integration",
+          "content": "Training and deploying neural networks for robotics"
+        }
+      ]
+    },
+    {
+      "chapterNumber": 6,
+      "title": "Vision-Language-Action (VLA)",
+      "subtopics": [
+        {
+          "section": "6.1",
+          "title": "Multimodal AI Fundamentals",
+          "content": "Integration of vision, language, and action systems"
+        },
+        {
+          "section": "6.2",
+          "title": "Visual Perception Systems",
+          "content": "Object detection, recognition, and scene understanding"
+        },
+        {
+          "section": "6.3",
+          "title": "Natural Language Processing",
+          "content": "Understanding and generating human language"
+        },
+        {
+          "section": "6.4",
+          "title": "Action Planning and Execution",
+          "content": "Converting intentions to robot movements"
+        },
+        {
+          "section": "6.5",
+          "title": "Decision Making Frameworks",
+          "content": "Reinforcement learning and planning algorithms"
+        },
+        {
+          "section": "6.6",
+          "title": "Human-Robot Interaction Protocols",
+          "content": "Natural and intuitive interaction methods"
+        }
+      ]
+    },
+    {
+      "chapterNumber": 7,
+      "title": "Conversational Robotics & AI",
+      "subtopics": [
+        {
+          "section": "7.1",
+          "title": "Dialogue Systems",
+          "content": "Architecture of conversational AI systems"
+        },
+        {
+          "section": "7.2",
+          "title": "Large Language Model Integration",
+          "content": "Connecting GPT and similar models to robotics"
+        },
+        {
+          "section": "7.3",
+          "title": "Context Awareness",
+          "content": "Maintaining conversational and environmental context"
+        },
+        {
+          "section": "7.4",
+          "title": "Voice Interfaces",
+          "content": "Speech recognition and synthesis for robots"
+        },
+        {
+          "section": "7.5",
+          "title": "Emotional Intelligence in Robots",
+          "content": "Recognizing and responding to human emotions"
+        },
+        {
+          "section": "7.6",
+          "title": "Privacy and Security",
+          "content": "Protecting user data and secure interactions"
+        }
+      ]
+    },
+    {
+      "chapterNumber": 8,
+      "title": "Capstone Project",
+      "subtopics": [
+        {
+          "section": "8.1",
+          "title": "Project Planning",
+          "content": "Requirements definition and system architecture"
+        },
+        {
+          "section": "8.2",
+          "title": "System Integration",
+          "content": "Combining all components into a cohesive system"
+        },
+        {
+          "section": "8.3",
+          "title": "Testing and Validation",
+          "content": "Verification of system functionality and safety"
+        },
+        {
+          "section": "8.4",
+          "title": "Performance Optimization",
+          "content": "Improving efficiency and responsiveness"
+        },
+        {
+          "section": "8.5",
+          "title": "Documentation and Deployment",
+          "content": "Creating user guides and deployment procedures"
+        },
+        {
+          "section": "8.6",
+          "title": "Future Enhancements",
+          "content": "Planning for continued development and improvements"
+        }
+      ]
+    }
+  ],
+  "appendices": [
+    {
+      "appendixId": "A",
+      "title": "Installation Guides",
+      "content": "Step-by-step setup instructions for all tools and frameworks"
+    },
+    {
+      "appendixId": "B",
+      "title": "Code Examples Repository",
+      "content": "Complete code listings referenced in the textbook"
+    },
+    {
+      "appendixId": "C",
+      "title": "Troubleshooting Guide",
+      "content": "Common issues and solutions for each chapter"
+    },
+    {
+      "appendixId": "D",
+      "title": "Further Reading and Resources",
+      "content": "Additional materials for deeper exploration"
+    }
+  ],
+  "learningOutcomes": [
+    "Understand the fundamental concepts of Physical AI and humanoid robotics",
+    "Develop proficiency in ROS 2 for robotic applications",
+    "Create and utilize digital twin simulations for robot development",
+    "Integrate NVIDIA Isaac for advanced perception and control",
+    "Implement Vision-Language-Action systems for intelligent robotics",
+    "Design conversational interfaces for human-robot interaction",
+    "Complete an end-to-end autonomous humanoid project"
+  ]
+}

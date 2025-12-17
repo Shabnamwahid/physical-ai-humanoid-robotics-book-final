@@ -23,13 +23,13 @@ By the end of this chapter, you will be able to:
 This chapter covers the essential aspects of digital twin technology for robotics, from basic simulation concepts to advanced sensor modeling. We'll explore how to create virtual environments that accurately represent physical systems and enable effective testing and development.
 
 ## Navigation
-- [4.1 Digital Twin Concepts](./4.1-digital-twin-concepts.md)
-- [4.2 Gazebo Simulation Environment](./4.2-gazebo-environment.md)
-- [4.3 Unity Integration](./4.3-unity-integration.md)
-- [4.4 Sensor Modeling and Simulation](./4.4-sensor-modeling.md)
-- [4.5 Physics Accuracy and Validation](./4.5-physics-accuracy.md)
-- [4.6 Simulation to Reality Transfer](./4.6-sim-to-real-transfer.md)
+- [4.1 Digital Twin Concepts](./4.1-digital-twin-concepts)
+- [4.2 Gazebo Simulation Environment](./4.2-gazebo-environment)
+- [4.3 Unity Integration](./4.3-unity-integration)
+- [4.4 Sensor Modeling and Simulation](./4.4-sensor-modeling)
+- [4.5 Physics Accuracy and Validation](./4.5-physics-accuracy)
+- [4.6 Simulation to Reality Transfer](./4.6-sim-to-real-transfer)
 
 ---
 
-*Continue to [4.1 Digital Twin Concepts](./4.1-digital-twin-concepts.md) to begin exploring the fundamentals of digital twin technology.*
+*Continue to [4.1 Digital Twin Concepts](./4.1-digital-twin-concepts) to begin exploring the fundamentals of digital twin technology.*

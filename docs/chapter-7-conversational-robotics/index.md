@@ -23,13 +23,13 @@ By the end of this chapter, you will be able to:
 This chapter covers the essential aspects of conversational robotics, from basic dialogue management to advanced natural language understanding. We'll explore how to create robots that can engage in natural, context-aware conversations while performing physical tasks.
 
 ## Navigation
-- [7.1 Dialogue Systems](./7.1-dialogue-systems.md)
-- [7.2 Large Language Model Integration](./7.2-llm-integration.md)
-- [7.3 Context Awareness](./7.3-context-awareness.md)
-- [7.4 Voice Interfaces](./7.4-voice-interfaces.md)
-- [7.5 Emotional Intelligence in Robots](./7.5-emotional-intelligence.md)
-- [7.6 Privacy and Security](./7.6-privacy-security.md)
+- [7.1 Dialogue Systems](./7.1-dialogue-systems)
+- [7.2 Large Language Model Integration](./7.2-llm-integration)
+- [7.3 Context Awareness](./7.3-context-awareness)
+- [7.4 Voice Interfaces](./7.4-voice-interfaces)
+- [7.5 Emotional Intelligence in Robots](./7.5-emotional-intelligence)
+- [7.6 Privacy and Security](./7.6-privacy-security)
 
 ---
 
-*Continue to [7.1 Dialogue Systems](./7.1-dialogue-systems.md) to begin exploring conversational interfaces for robotics.*
+*Continue to [7.1 Dialogue Systems](./7.1-dialogue-systems) to begin exploring conversational interfaces for robotics.*

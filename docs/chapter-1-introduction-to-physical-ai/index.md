@@ -24,13 +24,13 @@ By the end of this chapter, you will be able to:
 This chapter provides a comprehensive introduction to Physical AI, covering both theoretical foundations and practical considerations. We'll explore how intelligent systems can perceive, reason about, and act within physical environments, setting the stage for the more technical content in subsequent chapters.
 
 ## Navigation
-- [1.1 Defining Physical AI](./1.1-defining-physical-ai.md)
-- [1.2 Historical Context and Evolution](./1.2-historical-context.md)
-- [1.3 Key Components of Physical AI Systems](./1.3-key-components.md)
-- [1.4 Applications and Use Cases](./1.4-applications.md)
-- [1.5 Challenges and Opportunities](./1.5-challenges-opportunities.md)
-- [1.6 Future Directions](./1.6-future-directions.md)
+- [1.1 Defining Physical AI](./1.1-defining-physical-ai)
+- [1.2 Historical Context and Evolution](./1.2-historical-context)
+- [1.3 Key Components of Physical AI Systems](./1.3-key-components)
+- [1.4 Applications and Use Cases](./1.4-applications)
+- [1.5 Challenges and Opportunities](./1.5-challenges-opportunities)
+- [1.6 Future Directions](./1.6-future-directions)
 
 ---
 
-*Continue to [1.1 Defining Physical AI](./1.1-defining-physical-ai.md) to begin exploring the fundamental concepts of Physical AI.*
+*Continue to [1.1 Defining Physical AI](./1.1-defining-physical-ai) to begin exploring the fundamental concepts of Physical AI.*

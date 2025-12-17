@@ -23,13 +23,13 @@ By the end of this chapter, you will be able to:
 This chapter covers the essential concepts of multimodal AI integration, from individual component development to unified system architecture. We'll explore how to create systems that understand visual scenes, interpret natural language commands, and execute appropriate physical actions.
 
 ## Navigation
-- [6.1 Multimodal AI Fundamentals](./6.1-multimodal-ai.md)
-- [6.2 Visual Perception Systems](./6.2-visual-perception.md)
-- [6.3 Natural Language Processing](./6.3-natural-language-processing.md)
-- [6.4 Action Planning and Execution](./6.4-action-planning.md)
-- [6.5 Decision Making Frameworks](./6.5-decision-making.md)
-- [6.6 Human-Robot Interaction Protocols](./6.6-human-robot-interaction.md)
+- [6.1 Multimodal AI Fundamentals](./6.1-multimodal-ai)
+- [6.2 Visual Perception Systems](./6.2-visual-perception)
+- [6.3 Natural Language Processing](./6.3-natural-language-processing)
+- [6.4 Action Planning and Execution](./6.4-action-planning)
+- [6.5 Decision Making Frameworks](./6.5-decision-making)
+- [6.6 Human-Robot Interaction Protocols](./6.6-human-robot-interaction)
 
 ---
 
-*Continue to [6.1 Multimodal AI Fundamentals](./6.1-multimodal-ai.md) to begin exploring the integration of vision, language, and action.*
+*Continue to [6.1 Multimodal AI Fundamentals](./6.1-multimodal-ai) to begin exploring the integration of vision, language, and action.*

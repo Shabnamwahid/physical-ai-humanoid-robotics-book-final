@@ -23,13 +23,13 @@ By the end of this chapter, you will be able to:
 This capstone chapter provides a comprehensive project that integrates all concepts from the textbook. We'll walk through the complete development lifecycle from initial planning through deployment and future planning.
 
 ## Navigation
-- [8.1 Project Planning](./8.1-project-planning.md)
-- [8.2 System Integration](./8.2-system-integration.md)
-- [8.3 Testing and Validation](./8.3-testing-validation.md)
-- [8.4 Performance Optimization](./8.4-performance-optimization.md)
-- [8.5 Documentation and Deployment](./8.5-documentation-deployment.md)
-- [8.6 Future Enhancements](./8.6-future-enhancements.md)
+- [8.1 Project Planning](./8.1-project-planning)
+- [8.2 System Integration](./8.2-system-integration)
+- [8.3 Testing and Validation](./8.3-testing-validation)
+- [8.4 Performance Optimization](./8.4-performance-optimization)
+- [8.5 Documentation and Deployment](./8.5-documentation-deployment)
+- [8.6 Future Enhancements](./8.6-future-enhancements)
 
 ---
 
-*Continue to [8.1 Project Planning](./8.1-project-planning.md) to begin the comprehensive capstone project.*
+*Continue to [8.1 Project Planning](./8.1-project-planning) to begin the comprehensive capstone project.*

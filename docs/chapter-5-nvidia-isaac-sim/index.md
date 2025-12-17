@@ -23,13 +23,14 @@ By the end of this chapter, you will be able to:
 This chapter provides a comprehensive introduction to NVIDIA Isaac, covering both simulation capabilities and real-world deployment. We'll explore how to utilize GPU acceleration for computationally intensive robotics tasks and develop advanced perception and navigation systems.
 
 ## Navigation
-- [5.1 Isaac Sim Overview](./5.1-isaac-sim-overview.md)
-- [5.2 Perception Pipeline Development](./5.2-perception-pipeline.md)
-- [5.3 SLAM Algorithms](./5.3-slam-algorithms.md)
-- [5.4 Path Planning and Navigation](./5.4-path-planning.md)
-- [5.5 GPU Acceleration](./5.5-gpu-acceleration.md)
-- [5.6 Deep Learning Integration](./5.6-deep-learning-integration.md)
+- [5.1 Isaac Sim Overview](./5.1-isaac-sim-overview)
+
+- [5.2 Perception Pipeline Development](./5.2-perception-pipeline)
+- [5.3 SLAM Algorithms](./5.3-slam-algorithms)
+- [5.4 Path Planning and Navigation](./5.4-path-planning)
+- [5.5 GPU Acceleration](./5.5-gpu-acceleration)
+- [5.6 Deep Learning Integration](./5.6-deep-learning-integration)
 
 ---
 
-*Continue to [5.1 Isaac Sim Overview](./5.1-isaac-sim-overview.md) to begin exploring the NVIDIA Isaac platform.*
+*Continue to [5.1 Isaac Sim Overview](./5.1-isaac-sim-overview) to begin exploring the NVIDIA Isaac platform.*

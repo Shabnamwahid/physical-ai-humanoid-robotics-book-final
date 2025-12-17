@@ -5,7 +5,7 @@ import logging
 
 from app.routes import chat, ingest
 from app.config.settings import settings
-from app.services.db import database
+# from app.services.db import database  # ye line hata di
 from qdrant_client import QdrantClient
 
 logging.basicConfig(level=logging.INFO)
@@ -25,14 +25,11 @@ async def lifespan(app: FastAPI):
         check_compatibility=False
     )
 
-    # Database
-    await database.connect()
-    logger.info("Database connected")
+    # Database connect ki zarurat nahi abhi (Neon optional hai metadata ke liye, RAG Qdrant pe chalega)
     
     yield
 
     # Shutdown
-    await database.disconnect()
     logger.info("Shutting down...")
 
 app = FastAPI(

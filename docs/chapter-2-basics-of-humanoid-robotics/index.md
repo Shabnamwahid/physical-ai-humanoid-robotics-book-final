@@ -23,13 +23,13 @@ By the end of this chapter, you will be able to:
 This chapter provides a comprehensive introduction to humanoid robotics, covering both the mechanical and control aspects of creating human-like robots. We'll explore the challenges and opportunities in designing robots that can operate in human environments and interact with human-designed tools and spaces.
 
 ## Navigation
-- [2.1 Humanoid Robot Anatomy](./2.1-anatomy.md)
-- [2.2 Biomechanics and Biomimicry](./2.2-biomechanics.md)
-- [2.3 Balance and Locomotion](./2.3-balance-locomotion.md)
-- [2.4 Actuator Technologies](./2.4-actuator-technologies.md)
-- [2.5 Safety Considerations](./2.5-safety-considerations.md)
-- [2.6 Humanoid Platforms Overview](./2.6-platforms-overview.md)
+- [2.1 Humanoid Robot Anatomy](./2.1-anatomy)
+- [2.2 Biomechanics and Biomimicry](./2.2-biomechanics)
+- [2.3 Balance and Locomotion](./2.3-balance-locomotion)
+- [2.4 Actuator Technologies](./2.4-actuator-technologies)
+- [2.5 Safety Considerations](./2.5-safety-considerations)
+- [2.6 Humanoid Platforms Overview](./2.6-platforms-overview)
 
 ---
 
-*Continue to [2.1 Humanoid Robot Anatomy](./2.1-anatomy.md) to begin exploring the fundamental design of humanoid robots.*
+*Continue to [2.1 Humanoid Robot Anatomy](./2.1-anatomy) to begin exploring the fundamental design of humanoid robots.*

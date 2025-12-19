@@ -16,8 +16,9 @@ const config = {
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-
+  // onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw', 
+  
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],

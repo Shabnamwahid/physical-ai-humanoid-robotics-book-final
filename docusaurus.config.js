@@ -29,7 +29,7 @@ const config = {
       ({
         docs: {
           routeBasePath: '/',
-          sidebarPath: './sidebars.js',
+          sidebarPath: require.resolve('./sidebars.js'), 
           editUrl:
             'https://github.com/Shabnamwahid/physical-ai-humanoid-robotics-book-final/tree/main/',
         },

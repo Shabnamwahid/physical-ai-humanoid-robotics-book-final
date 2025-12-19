@@ -1,9 +1,9 @@
 ---
+id: chapter-1-introduction-to-physical-ai
 title: Introduction to Physical AI
 sidebar_position: 1
 description: Understanding the fundamentals of Physical AI and embodied intelligence
 ---
-
 # Introduction to Physical AI
 
 Welcome to the fascinating world of Physical AI - the convergence of artificial intelligence with the physical world through robotic systems. This chapter introduces the core concepts that form the foundation of embodied intelligence.

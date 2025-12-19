@@ -1,9 +1,9 @@
 ---
+id: chapter-5-nvidia-isaac-sim
 title: NVIDIA Isaac Sim and Navigation
 sidebar_position: 1
 description: Understanding NVIDIA Isaac for robotics simulation and navigation
 ---
-
 # NVIDIA Isaac Sim and Navigation
 
 NVIDIA Isaac provides a comprehensive platform for robotics simulation and development, leveraging GPU acceleration for advanced perception and control. This chapter explores Isaac's capabilities for developing sophisticated robotic systems with focus on navigation and perception.

@@ -1,9 +1,9 @@
 ---
+id: chapter-3-ros-2-fundamentals
 title: ROS 2 Fundamentals
 sidebar_position: 1
 description: Understanding the fundamentals of ROS 2 for robotic applications
 ---
-
 # ROS 2 Fundamentals
 
 Robot Operating System 2 (ROS 2) provides the middleware and tools necessary for developing complex robotic applications. This chapter introduces the core concepts, architecture, and practical applications of ROS 2 in modern robotics development.

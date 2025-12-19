@@ -1,4 +1,5 @@
 ---
+id: chapter-8-capstone-project
 title: Capstone Project
 sidebar_position: 1
 description: Integrating all concepts in a comprehensive autonomous humanoid project

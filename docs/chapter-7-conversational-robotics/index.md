@@ -1,4 +1,5 @@
 ---
+id: chapter-7-conversational-robotics
 title: Conversational Robotics & AI
 sidebar_position: 1
 description: Understanding conversational AI systems for robotic applications

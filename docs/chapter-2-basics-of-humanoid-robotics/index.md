@@ -1,9 +1,9 @@
 ---
+id: chapter-2-basics-of-humanoid-robotics
 title: Basics of Humanoid Robotics
 sidebar_position: 1
 description: Understanding the fundamentals of humanoid robot design and operation
 ---
-
 # Basics of Humanoid Robotics
 
 Humanoid robotics represents one of the most challenging and fascinating areas of robotics, requiring the integration of multiple complex systems to create machines that can move and interact in human-like ways. This chapter covers the fundamental concepts of humanoid robot design, from mechanical anatomy to control systems.

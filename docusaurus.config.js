@@ -7,23 +7,16 @@ const config = {
   tagline: 'A Comprehensive Guide to Embodied Intelligence',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
   url: 'https://shabnamwahid.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<org-name>/<repo-name>/'
   baseUrl: '/physical-ai-humanoid-robotics-book-final/',
 
-  // GitHub pages deployment config.
-  organizationName: 'Shabnamwahid', // Usually your GitHub org/user name.
-  projectName: 'physical-ai-humanoid-robotics-book-final', // Usually your repo name.
+  organizationName: 'Shabnamwahid',
+  projectName: 'physical-ai-humanoid-robotics-book-final',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -35,13 +28,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Shabnamwahid/physical-ai-humanoid-robotics-book-final/tree/main/',
         },
-        blog: false, // Disable blog for textbook format
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -52,7 +44,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Physical AI & Humanoid Robotics Textbook',
@@ -62,8 +53,7 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'textbookSidebar',
+            to: '/chapter-1-introduction-to-physical-ai',  // direct Chapter 1 pe jaaye
             position: 'left',
             label: 'Textbook',
           },
@@ -82,19 +72,19 @@ const config = {
             items: [
               {
                 label: 'Introduction to Physical AI',
-                to: '/docs/chapter-1-introduction-to-physical-ai',
+                to: '/chapter-1-introduction-to-physical-ai',
               },
               {
                 label: 'Humanoid Robotics Basics',
-                to: '/docs/chapter-2-basics-of-humanoid-robotics',
+                to: '/chapter-2-basics-of-humanoid-robotics',
               },
               {
                 label: 'ROS 2 Fundamentals',
-                to: '/docs/chapter-3-ros-2-fundamentals',
+                to: '/chapter-3-ros-2-fundamentals',
               },
               {
                 label: 'Digital Twin Simulation',
-                to: '/docs/chapter-4-digital-twin-simulation',
+                to: '/chapter-4-digital-twin-simulation',
               },
             ],
           },
@@ -122,17 +112,10 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ['python', 'bash', 'json', 'yaml', 'dockerfile'],
+        additionalLanguages: ['python', 'bash', 'json', 'yaml'],
       },
-      // algolia: {
-      //   // Optional: Add search if needed
-      //   appId: process.env.ALGOLIA_APP_ID,
-      //   apiKey: process.env.ALGOLIA_API_KEY,
-      //   indexName: 'physical-ai-humanoid-robotics',
-      // }
     }),
 
-  // Custom fields for textbook functionality
   customFields: {
     textbookVersion: '1.0.0',
     lastUpdated: new Date().toISOString(),
@@ -140,27 +123,24 @@ const config = {
     chatbotEndpoint: process.env.CHATBOT_API_URL || 'http://localhost:8000',
   },
 
-  // Plugins for enhanced functionality
   plugins: [
-    // Plugin for AI chat widget
-    [
-      './src/plugins/docusaurus-plugin-ai-chat',
-      {
-        backendUrl: process.env.CHATBOT_API_URL || 'http://localhost:8000',
-      },
-    ],
-    // Plugin for educational features
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          {
-            to: '/docs/chapter-1-introduction-to-physical-ai',
-            from: ['/docs', '/textbook', '/introduction'],
-          },
-        ],
-      },
-    ],
+    // [
+    //   './src/plugins/docusaurus-plugin-ai-chat',
+    //   {
+    //     backendUrl: process.env.CHATBOT_API_URL || 'http://localhost:8000',
+    //   },
+    // ],
+    // [
+    //   '@docusaurus/plugin-client-redirects',
+    //   {
+    //     redirects: [
+    //       {
+    //         to: '/docs/chapter-1-introduction-to-physical-ai',
+    //         from: ['/docs', '/textbook', '/introduction'],
+    //       },
+    //     ],
+    //   },
+    // ],
   ],
 };
 

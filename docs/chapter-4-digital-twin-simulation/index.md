@@ -1,4 +1,5 @@
 ---
+id: chapter-4-digital-twin-simulation
 title: Digital Twin Simulation and Sensors
 sidebar_position: 1
 description: Understanding digital twin concepts and sensor simulation for robotics

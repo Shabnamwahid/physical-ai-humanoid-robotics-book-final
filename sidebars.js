@@ -1,6 +1,4 @@
-// @ts-check
-
-/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+//** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   textbookSidebar: [
     {
@@ -8,7 +6,7 @@ const sidebars = {
       label: 'Introduction to Physical AI',
       link: {
         type: 'doc',
-        id: 'chapter-1-introduction-to-physical-ai/index',
+        id: 'chapter-1-introduction-to-physical-ai/chapter-1-introduction-to-physical-ai',
       },
       items: [
         'chapter-1-introduction-to-physical-ai/1.1-defining-physical-ai',
@@ -21,10 +19,10 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Basics of Humanoid Robotics',
+      label: 'Humanoid Robotics Basics',
       link: {
         type: 'doc',
-        id: 'chapter-2-basics-of-humanoid-robotics/index',
+        id: 'chapter-2-basics-of-humanoid-robotics/chapter-2-basics-of-humanoid-robotics',
       },
       items: [
         'chapter-2-basics-of-humanoid-robotics/2.1-anatomy',
@@ -40,7 +38,7 @@ const sidebars = {
       label: 'ROS 2 Fundamentals',
       link: {
         type: 'doc',
-        id: 'chapter-3-ros-2-fundamentals/index',
+        id: 'chapter-3-ros-2-fundamentals/chapter-3-ros-2-fundamentals',
       },
       items: [
         'chapter-3-ros-2-fundamentals/3.1-architecture',
@@ -53,10 +51,10 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Digital Twin Simulation and Sensors',
+      label: 'Digital Twin Simulation',
       link: {
         type: 'doc',
-        id: 'chapter-4-digital-twin-simulation/index',
+        id: 'chapter-4-digital-twin-simulation/chapter-4-digital-twin-simulation',
       },
       items: [
         'chapter-4-digital-twin-simulation/4.1-digital-twin-concepts',
@@ -69,10 +67,10 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'NVIDIA Isaac Sim and Navigation',
+      label: 'NVIDIA Isaac Sim',
       link: {
         type: 'doc',
-        id: 'chapter-5-nvidia-isaac-sim/index',
+        id: 'chapter-5-nvidia-isaac-sim/chapter-5-nvidia-isaac-sim',
       },
       items: [
         'chapter-5-nvidia-isaac-sim/5.1-isaac-sim-overview',
@@ -85,10 +83,10 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Vision-Language-Action (VLA)',
+      label: 'Vision-Language-Action',
       link: {
         type: 'doc',
-        id: 'chapter-6-vision-language-action/index',
+        id: 'chapter-6-vision-language-action/chapter-6-vision-language-action',
       },
       items: [
         'chapter-6-vision-language-action/6.1-multimodal-ai',
@@ -101,10 +99,10 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Conversational Robotics & AI',
+      label: 'Conversational Robotics',
       link: {
         type: 'doc',
-        id: 'chapter-7-conversational-robotics/index',
+        id: 'chapter-7-conversational-robotics/chapter-7-conversational-robotics',
       },
       items: [
         'chapter-7-conversational-robotics/7.1-dialogue-systems',
@@ -120,7 +118,7 @@ const sidebars = {
       label: 'Capstone Project',
       link: {
         type: 'doc',
-        id: 'chapter-8-capstone-project/index',
+        id: 'chapter-8-capstone-project/chapter-8-capstone-project',
       },
       items: [
         'chapter-8-capstone-project/8.1-project-planning',
@@ -136,13 +134,14 @@ const sidebars = {
       label: 'Appendices',
       collapsed: true,
       items: [
+        'appendices/index',
         'appendices/installation-guides',
-        'appendices/code-examples',
         'appendices/troubleshooting',
+        'appendices/code-examples',
         'appendices/further-reading',
       ],
     },
   ],
 };
 
-export default sidebars;
+module.exports = sidebars;

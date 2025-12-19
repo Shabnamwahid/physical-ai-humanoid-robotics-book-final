@@ -1,8 +1,10 @@
 ---
+id: chapter-6-vision-language-action
 title: Vision-Language-Action (VLA)
 sidebar_position: 1
 description: Understanding multimodal AI systems that integrate vision, language, and action
 ---
+
 
 # Vision-Language-Action (VLA)
 

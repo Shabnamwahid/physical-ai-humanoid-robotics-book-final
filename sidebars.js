@@ -24,6 +24,7 @@ const sidebars = {
         type: 'doc',
         id: 'chapter-2-basics-of-humanoid-robotics/chapter-2-basics-of-humanoid-robotics',
       },
+      collapsed: true, 
       items: [
         'chapter-2-basics-of-humanoid-robotics/2.1-anatomy',
         'chapter-2-basics-of-humanoid-robotics/2.2-biomechanics',
@@ -40,6 +41,7 @@ const sidebars = {
         type: 'doc',
         id: 'chapter-3-ros-2-fundamentals/chapter-3-ros-2-fundamentals',
       },
+      collapsed: true, 
       items: [
         'chapter-3-ros-2-fundamentals/3.1-architecture',
         'chapter-3-ros-2-fundamentals/3.2-installation-setup',
@@ -56,6 +58,7 @@ const sidebars = {
         type: 'doc',
         id: 'chapter-4-digital-twin-simulation/chapter-4-digital-twin-simulation',
       },
+      collapsed: true, 
       items: [
         'chapter-4-digital-twin-simulation/4.1-digital-twin-concepts',
         'chapter-4-digital-twin-simulation/4.2-gazebo-environment',
@@ -72,6 +75,7 @@ const sidebars = {
         type: 'doc',
         id: 'chapter-5-nvidia-isaac-sim/chapter-5-nvidia-isaac-sim',
       },
+      collapsed: true, 
       items: [
         'chapter-5-nvidia-isaac-sim/5.1-isaac-sim-overview',
         'chapter-5-nvidia-isaac-sim/5.2-perception-pipeline',
@@ -88,6 +92,7 @@ const sidebars = {
         type: 'doc',
         id: 'chapter-6-vision-language-action/chapter-6-vision-language-action',
       },
+      collapsed: true, 
       items: [
         'chapter-6-vision-language-action/6.1-multimodal-ai',
         'chapter-6-vision-language-action/6.2-visual-perception',
@@ -104,6 +109,7 @@ const sidebars = {
         type: 'doc',
         id: 'chapter-7-conversational-robotics/chapter-7-conversational-robotics',
       },
+      collapsed: true, 
       items: [
         'chapter-7-conversational-robotics/7.1-dialogue-systems',
         'chapter-7-conversational-robotics/7.2-llm-integration',
@@ -120,6 +126,7 @@ const sidebars = {
         type: 'doc',
         id: 'chapter-8-capstone-project/chapter-8-capstone-project',
       },
+      collapsed: true, 
       items: [
         'chapter-8-capstone-project/8.1-project-planning',
         'chapter-8-capstone-project/8.2-system-integration',

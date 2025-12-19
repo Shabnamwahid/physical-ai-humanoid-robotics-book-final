@@ -8,6 +8,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://shabnamwahid.github.io',
+ 
   baseUrl: '/physical-ai-humanoid-robotics-book-final/',
 
   organizationName: 'Shabnamwahid',

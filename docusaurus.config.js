@@ -8,14 +8,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://shabnamwahid.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<org-name>/<repo-name>/'
-  baseUrl: '/physical-ai-humanoid-robotics-book-q4/',
+  baseUrl: '/physical-ai-humanoid-robotics-book-final/',
 
   // GitHub pages deployment config.
-  organizationName: 'your-organization', // Usually your GitHub org/user name.
-  projectName: 'physical-ai-humanoid-robotics-book-q4', // Usually your repo name.
+  organizationName: 'Shabnamwahid', // Usually your GitHub org/user name.
+  projectName: 'physical-ai-humanoid-robotics-book-final', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -39,7 +39,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/physical-ai-humanoid-robotics-book-q4/tree/main/',
+            'https://github.com/Shabnamwahid/physical-ai-humanoid-robotics-book-final/tree/main/',
         },
         blog: false, // Disable blog for textbook format
         theme: {
@@ -55,7 +55,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Physical AI Textbook',
+        title: 'Physical AI & Humanoid Robotics Textbook',
         logo: {
           alt: 'Physical AI Logo',
           src: 'img/logo.svg',
@@ -68,7 +68,7 @@ const config = {
             label: 'Textbook',
           },
           {
-            href: 'https://github.com/your-username/physical-ai-humanoid-robotics-book-q4',
+            href: 'https://github.com/Shabnamwahid/physical-ai-humanoid-robotics-book-final/issues',
             label: 'GitHub',
             position: 'right',
           },
@@ -103,7 +103,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/your-username/physical-ai-humanoid-robotics-book-q4',
+                href: 'https://github.com/Shabnamwahid/physical-ai-humanoid-robotics-book-final/issues',
               },
             ],
           },
@@ -112,7 +112,7 @@ const config = {
             items: [
               {
                 label: 'Report Issues',
-                href: 'https://github.com/your-username/physical-ai-humanoid-robotics-book-q4/issues',
+                href: 'https://github.com/Shabnamwahid/physical-ai-humanoid-robotics-book-final/issues',
               },
             ],
           },
@@ -124,12 +124,12 @@ const config = {
         darkTheme: prismThemes.dracula,
         additionalLanguages: ['python', 'bash', 'json', 'yaml', 'dockerfile'],
       },
-      algolia: {
-        // Optional: Add search if needed
-        appId: process.env.ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_API_KEY,
-        indexName: 'physical-ai-humanoid-robotics',
-      }
+      // algolia: {
+      //   // Optional: Add search if needed
+      //   appId: process.env.ALGOLIA_APP_ID,
+      //   apiKey: process.env.ALGOLIA_API_KEY,
+      //   indexName: 'physical-ai-humanoid-robotics',
+      // }
     }),
 
   // Custom fields for textbook functionality

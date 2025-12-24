@@ -21,7 +21,16 @@ const config = {
   
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ur'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      ur: {
+        direction: 'rtl',
+        label: 'اردو',
+      },
+    },
   },
 
   presets: [
@@ -58,6 +67,10 @@ const config = {
             to: '/chapter-1-introduction-to-physical-ai',  // direct Chapter 1 pe jaaye
             position: 'left',
             label: 'Textbook',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
           {
             href: 'https://github.com/Shabnamwahid/physical-ai-humanoid-robotics-book-final/issues',
